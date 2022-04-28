@@ -1,0 +1,21 @@
+.search-field {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #0ccac4;
+  color: #0ccac4;
+  font-size: 1.4rem;
+  padding: .3rem;
+  width: 100%;
+}
+
+.search-field:focus {
+  outline: none;
+}
+
+.search-field::placeholder {
+  color: rgba(12, 202, 196, 0.5);
+}
+
+.search-field:focus::placeholder {
+  color: transparent;
+}

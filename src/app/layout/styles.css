@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+}
+
+body {
+  background: linear-gradient(
+    to left,
+    rgba(7, 27, 82, 1) 0%,
+    rgba(0, 128, 128, 1) 100%
+  );
+  color: #fff;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0 0 .6rem;
+}
+
+h1 {
+  color: #0ccac4;
+  font-family: 'Bigelow Rules';
+  font-size: 6rem;
+  margin: 0 0 10px;  
+}
+
+ul {
+  margin: 0;
+  padding: 0 0 0 1.3rem;
+}
+
+ul li:not(:last-child) {
+  margin-bottom: .5rem;
+}
+
+.main {
+  padding: 1.5rem .3rem;
+}
+
+.monsters {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
